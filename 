@@ -1,0 +1,29 @@
+* [33mcommit 408ddc1091d5c1fa62bbb832f11e42edaa06a826[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/lesson-4[m[33m, [m[1;32mlesson-4[m[33m)[m
+[31m|[m Author: Fernandes Ferreira <ferolder@gmail.com>
+[31m|[m Date:   Wed Jan 29 20:13:03 2020 -0300
+[31m|[m 
+[31m|[m     Display all questions and paginate it / Mostrando todas as questions e configurando a paginação
+[31m|[m 
+* [33mcommit d250aa517e4e47657cdfc118bfddef844b20e0f5[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/lesson-3[m[33m, [m[1;32mlesson-3[m[33m)[m
+[31m|[m Author: Fernandes Ferreira <ferolder@gmail.com>
+[31m|[m Date:   Wed Jan 29 09:27:06 2020 -0300
+[31m|[m 
+[31m|[m     Prepopulate users and questions tables using model factories and seed/Populando previamente as tabelas users e questions usando factory e seed
+[31m|[m 
+* [33mcommit 15b0771819e17462e06948bf5d5b612bd5a374b5[m[33m ([m[1;31morigin/lesson-2[m[33m, [m[1;32mlesson-2[m[33m)[m
+[31m|[m Author: Fernandes Ferreira <ferolder@gmail.com>
+[31m|[m Date:   Tue Jan 28 16:02:24 2020 -0300
+[31m|[m 
+[31m|[m     Generate Question model and migration via artisan generator/ Gerando model e migration via artisan
+[31m|[m 
+* [33mcommit 3ddf1113ee6e792f156845ce3fd2fb79b7579bb6[m
+[31m|[m Author: Fernandes Ferreira <ferolder@gmail.com>
+[31m|[m Date:   Tue Jan 28 11:35:46 2020 -0300
+[31m|[m 
+[31m|[m     Generate auth scaffolding and NPM packages / Gerando a estrutura de autenticação e os pacotes NPM
+[31m|[m 
+* [33mcommit 06ec1075537fe4a6be38fbeee711adde8041b0a3[m
+  Author: Fernandes Ferreira <ferolder@gmail.com>
+  Date:   Tue Jan 28 10:46:59 2020 -0300
+  
+      Initial Commit / Primeiro Commit
