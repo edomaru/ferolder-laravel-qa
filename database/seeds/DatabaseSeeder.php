@@ -14,6 +14,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         factory(User::class, 5)->create()->each(function($user) {
+			// questions é o nome do relacionamento configurado
             $user->questions()->saveMany(
                 factory(Question::class, rand(1, 5))->make()
             );
