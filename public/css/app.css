@@ -11356,6 +11356,40 @@ a.text-dark:focus {
   }
 }
 
+.counters {
+  margin-right: 30px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.counters strong {
+  display: block;
+  font-size: 2em;
+}
+
+.counters .vote {
+  width: 60px;
+  height: 60px;
+}
+
+.counters .status.unanswered {
+  border: none;
+}
+
+.counters .status.answered {
+  border: 1px solid #38c172;
+  color: #38c172;
+}
+
+.counters .status.answered-accepted {
+  background: #38c172;
+  color: #fff;
+}
+
+.counters .view {
+  margin-top: 10px;
+}
+
 form.form-delete {
   display: inline;
 }
