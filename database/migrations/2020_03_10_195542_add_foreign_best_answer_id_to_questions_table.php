@@ -17,7 +17,7 @@ class AddForeignBestAnswerIdToQuestionsTable extends Migration
             $table->foreign('best_answer_id')
                 ->references('id')
                 ->on('answers')
-                ->onDelete('SET NULL');
+                ->onDelete('set null');
         });
     }
 
@@ -29,7 +29,7 @@ class AddForeignBestAnswerIdToQuestionsTable extends Migration
     public function down()
     {
         Schema::table('questions', function (Blueprint $table) {
-            $table->dropForeign(['best_answer_id']);
+            $table->dropForeign('best_answer_id');
         });
     }
 }
