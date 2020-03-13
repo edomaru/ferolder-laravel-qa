@@ -22,12 +22,11 @@ class Question extends Model
         return $this->hasMany(Answer::class);
     }
 
-/*   For use this relationship, do like below. 
-
-    $question = Question::find(1);
-    // To Access 
-    //$question->user->name;
-*/
+    public function acceptBestAnswer(Answer $answer)
+    {
+        $this->best_answer_id = $answer->id;
+        $this->save();
+    }
 
     public function setTitleAttribute($value)
     {
